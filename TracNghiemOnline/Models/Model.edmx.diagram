@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="31b94f3b21ce41f284cd5067abccc94b" Name="Diagram1">
+        <EntityTypeShape EntityType="trac_nghiem_onlineModel.admin" Width="1.5" PointX="6" PointY="17.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="trac_nghiem_onlineModel.class" Width="1.5" PointX="3.75" PointY="10.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="trac_nghiem_onlineModel.grade" Width="1.5" PointX="1.5" PointY="9.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="trac_nghiem_onlineModel.permission" Width="1.5" PointX="3.75" PointY="14.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="trac_nghiem_onlineModel.question" Width="1.5" PointX="3" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="trac_nghiem_onlineModel.quests_of_test" Width="1.5" PointX="5.25" PointY="5.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="trac_nghiem_onlineModel.score" Width="1.5" PointX="8.25" PointY="1.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="trac_nghiem_onlineModel.speciality" Width="1.5" PointX="1.5" PointY="11.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="trac_nghiem_onlineModel.status" Width="1.5" PointX="3.75" PointY="2" IsExpanded="true" />
+        <EntityTypeShape EntityType="trac_nghiem_onlineModel.student_test_detail" Width="1.5" PointX="7.75" PointY="5.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="trac_nghiem_onlineModel.student" Width="1.5" PointX="6" PointY="10.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="trac_nghiem_onlineModel.subject" Width="1.5" PointX="0.75" PointY="5.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="trac_nghiem_onlineModel.teacher" Width="1.5" PointX="9" PointY="12.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="trac_nghiem_onlineModel.test" Width="1.5" PointX="6" PointY="0.75" IsExpanded="true" />
+        <AssociationConnector Association="trac_nghiem_onlineModel.FK__admins__id_permi__46E78A0C" ManuallyRouted="false" />
+        <AssociationConnector Association="trac_nghiem_onlineModel.FK__students__id_cla__5070F446" ManuallyRouted="false" />
+        <AssociationConnector Association="trac_nghiem_onlineModel.fk_grade" ManuallyRouted="false" />
+        <AssociationConnector Association="trac_nghiem_onlineModel.fk_speciality" ManuallyRouted="false" />
+        <AssociationConnector Association="trac_nghiem_onlineModel.FK__students__id_per__4F7CD00D" ManuallyRouted="false" />
+        <AssociationConnector Association="trac_nghiem_onlineModel.FK__teachers__id_per__4AB81AF0" ManuallyRouted="false" />
+        <AssociationConnector Association="trac_nghiem_onlineModel.FK__questions__id_su__5629CD9C" ManuallyRouted="false" />
+        <AssociationConnector Association="trac_nghiem_onlineModel.FK_quests_of_test_questions" ManuallyRouted="false" />
+        <AssociationConnector Association="trac_nghiem_onlineModel.FK_quests_of_test_tests" ManuallyRouted="false" />
+        <AssociationConnector Association="trac_nghiem_onlineModel.FK__scores__id_stude__60A75C0F" ManuallyRouted="false" />
+        <AssociationConnector Association="trac_nghiem_onlineModel.FK_scores_tests" ManuallyRouted="false" />
+        <AssociationConnector Association="trac_nghiem_onlineModel.FK__students__id_spe__5165187F" ManuallyRouted="false" />
+        <AssociationConnector Association="trac_nghiem_onlineModel.FK__teachers__id_spe__4BAC3F29" ManuallyRouted="false" />
+        <AssociationConnector Association="trac_nghiem_onlineModel.FK__tests__id_status__59FA5E80" ManuallyRouted="false" />
+        <AssociationConnector Association="trac_nghiem_onlineModel.FK__tests__id_subjec__59063A47" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
